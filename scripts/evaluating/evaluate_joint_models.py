@@ -114,7 +114,9 @@ for model_name in model_names:
     # load label maps, thresholds, tokenizer, and model
     label2id, id2label = get_label_map(model_file_path)
     tokenizer = AutoTokenizer.from_pretrained(model_file_path)
-    
+
+    # switch to "thresholds.json" for human annotation based thresholds
+    # switch to "thresholds_bin.json" for binary prediction based thresholds
     thresholds = load_json(os.path.join(model_file_path, "thresholds_bin.json"))
     model = AutoModelForSequenceClassification.from_pretrained(model_file_path).to("cuda")
     model.eval() # lock model in eval mode
@@ -140,8 +142,8 @@ for model_name in model_names:
         # classification report for Agenda multi-label eval using optimal threshold
         report = classification_report(labels, predictions, zero_division = 0, target_names = ordered_labels)
 
-        # create output report file
-        output_file = base_dir + "/data/output/evaluations/" + model_name + "-thr-bin-evaluation.txt"
+        # create output report file 
+        output_file = base_dir + "/data/output/evaluations/" + model_name + "-thr-bin-evaluation.txt" # "-evaluation.txt"
         os.makedirs(os.path.dirname(output_file), exist_ok = True)
 
         # write overal report
