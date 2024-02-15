@@ -1195,10 +1195,10 @@ def load_ironic_corpus(filepath, test_size = 0.1):
         multi_label_example["labels"] = iron_classes[i]
         
         if "IRONY-train" not in multi_label_dataset:
-            multi_label_dataset["IRONY-train"] = []
+            multi_label_dataset["REDDIT-IRONY-train"] = []
             
         # append to multilabel example
-        multi_label_dataset["IRONY-train"].append(multi_label_example)
+        multi_label_dataset["REDDIT-IRONY-train"].append(multi_label_example)
     
     # store test set
     for i in test_index:
@@ -1209,14 +1209,14 @@ def load_ironic_corpus(filepath, test_size = 0.1):
         multi_label_example["labels"] = iron_classes[i]
         
         if "IRONY-test" not in multi_label_dataset:
-            multi_label_dataset["IRONY-test"] = []
+            multi_label_dataset["REDDIT-IRONY-test"] = []
             
         # append to multilabel example
-        multi_label_dataset["IRONY-test"].append(multi_label_example)  
+        multi_label_dataset["REDDIT-IRONY-test"].append(multi_label_example)  
     
     print("Ironic Corpus dataset loaded. ")
-    print("\t", len(multi_label_dataset["IRONY-train"]), "training examples. ")
-    print("\t", len(multi_label_dataset["IRONY-test"]), "testing examples. ")
+    print("\t", len(multi_label_dataset["REDDIT-IRONY-train"]), "training examples. ")
+    print("\t", len(multi_label_dataset["REDDIT-IRONY-test"]), "testing examples. ")
     
 # method to load HYPOGen dataset
 def load_hypo_gen(filepath, test_size = 0.1):
@@ -1498,7 +1498,7 @@ else:
     load_pie_en(base_dir + "/data/pie-en/") # actual lietarls
     load_msd23(base_dir + "/data/MSD23-v1.0/") # actual lietarls
     load_hypo_gen(base_dir + "/data/HYPOGen/") # actual lietarls
-    load_ironic_corpus(base_dir + "/data/Ironic Corpus/") # not actual literals
+    load_ironic_corpus(base_dir + "/data/Reddit Irony Corpus/") # not actual literals
     load_sarcasm_corpus(base_dir + "/data/Sarcasm Corpus V2/") # not actual literals
     load_fig_comp(base_dir + "/data/figurative-comparisons-data/") # actual lietarls
     
