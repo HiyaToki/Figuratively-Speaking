@@ -1,0 +1,362 @@
+RUNNING... ../scripts/utilities/load_data.py
+
+Loading FLUTE-metaphor dataset... FLUTE-metaphor dataset loaded. 
+	 1875 training examples. 
+	 372 testing examples. 
+Loading iScarsam Eval 2022 dataset... iSarcasm Eval 2022 dataset loaded. 
+	 4335 training examples. 
+	 1192 testing examples. 
+Loading FLUTE-idiom dataset... FLUTE-idiom dataset loaded. 
+	 2652 training examples. 
+	 375 testing examples. 
+Loading FLUTE-simile dataset... FLUTE-simile dataset loaded. 
+	 1875 training examples. 
+	 375 testing examples. 
+Loading FLUTE-sarcasm dataset... FLUTE-sarcasm dataset loaded. 
+	 4316 training examples. 
+	 1039 testing examples. 
+Loading Irony SemEval 2018 dataset... Irony SemEval18 dataset loaded. 
+	 3817 training examples. 
+	 784 testing examples. 
+Loading LCC dataset... LCC dataset loaded. 
+	 6704 training examples. 
+	 745 testing examples. 
+Loading MOH dataset... MOH dataset loaded. 
+	 1475 training examples. 
+	 164 testing examples. 
+Loading EPIE dataset... EPIE dataset loaded. 
+	 2822 training examples. 
+	 314 testing examples. 
+Loading MOVER dataset... MOVER dataset loaded. 
+	 2903 training examples. 
+	 323 testing examples. 
+Loading PIE-EN dataset... PIE-EN dataset loaded. 
+	 13329 training examples. 
+	 1482 testing examples. 
+Loading MSD23 dataset... MSD23 dataset loaded. 
+	 7331 training examples. 
+	 815 testing examples. 
+Loading HYPOGen dataset... HYPOGen dataset loaded. 
+	 4273 training examples. 
+	 475 testing examples. 
+Loading Ironic Corpus dataset... Ironic Corpus dataset loaded. 
+	 1754 training examples. 
+	 195 testing examples. 
+Loading Sarcasm Corpus v2 dataset... Sarcasm Corpus v2 dataset loaded. 
+	 8447 training examples. 
+	 939 testing examples. 
+Loading Figurative Comparisons dataset... Figurative Comparisons dataset loaded. 
+	 1260 training examples. 
+	 140 testing examples. 
+	 
+CLASS DISTRIBUTION FOR EACH DATASET
+
+Label distribution in iSarcasm
+	Label:  not_sarcasm  ->  4681
+	Label:  irony  ->  174
+	Label:  not_hyperbole  ->  5481
+	Label:  not_irony  ->  5353
+	Label:  sarcasm  ->  846
+	Label:  hyperbole  ->  46
+	
+Label distribution in FLUTE-metaphor
+	Label:  metaphor  ->  749
+	Label:  literal  ->  1498
+
+Label distribution in FLUTE-idiom
+	Label:  idiom  ->  1009
+	Label:  literal  ->  2018
+
+Label distribution in FLUTE-simile
+	Label:  simile  ->  750
+	Label:  literal  ->  1500
+
+Label distribution in FLUTE-sarcasm
+	Label:  sarcasm  ->  2677
+	Label:  not_sarcasm  ->  1339
+	Label:  literal  ->  1339
+
+Label distribution in Irony-Eval18
+	Label:  irony  ->  2212
+	Label:  not_irony  ->  2389
+
+Label distribution in LCC
+	Label:  not_metaphor  ->  4413
+	Label:  metaphor  ->  3036
+
+Label distribution in MOH
+	Label:  metaphor  ->  410
+	Label:  literal  ->  1229
+
+Label distribution in EPIE
+	Label:  idiom  ->  2761
+	Label:  literal  ->  375
+
+Label distribution in MOVER
+	Label:  literal  ->  2219
+	Label:  hyperbole  ->  1007
+
+Label distribution in PIE-EN
+	Label:  metaphor  ->  12590
+	Label:  idiom  ->  13738
+	Label:  simile  ->  1072
+	Label:  literal  ->  1073
+	Label:  hyperbole  ->  46
+	Label:  irony  ->  30
+
+Label distribution in MSD23
+	Label:  simile  ->  3576
+	Label:  literal  ->  4570
+
+Label distribution in HYPOGen
+	Label:  literal  ->  2872
+	Label:  hyperbole  ->  1876
+
+Label distribution in IRONY
+	Label:  not_irony  ->  1412
+	Label:  irony  ->  537
+
+Label distribution in SARCv2
+	Label:  sarcasm  ->  4693
+	Label:  not_sarcasm  ->  4693
+	Label:  hyperbole  ->  1164
+
+Label distribution in FigComp
+	Label:  simile  ->  449
+	Label:  literal  ->  951
+	 
+	 
+	 
+CLASS DISTRIBUTION FOR EACH SPLIT DATASET  
+	 
+Label distribution in iSarcasm-train
+	Label:  not_sarcasm  ->  3622
+	Label:  irony  ->  155
+	Label:  not_hyperbole  ->  4295
+	Label:  not_irony  ->  4180
+	Label:  sarcasm  ->  713
+	Label:  hyperbole  ->  40
+
+Label distribution in iSarcasm-test
+	Label:  not_sarcasm  ->  1059
+	Label:  not_irony  ->  1173
+	Label:  not_hyperbole  ->  1186
+	Label:  sarcasm  ->  133
+	Label:  irony  ->  19
+	Label:  hyperbole  ->  6
+	 
+Label distribution in FLUTE-metaphor-train
+	Label:  metaphor  ->  625
+	Label:  literal  ->  1250
+
+Label distribution in FLUTE-metaphor-test
+	Label:  metaphor  ->  124
+	Label:  literal  ->  248
+
+Label distribution in FLUTE-idiom-train
+	Label:  idiom  ->  884
+	Label:  literal  ->  1768
+
+Label distribution in FLUTE-idiom-test
+	Label:  idiom  ->  125
+	Label:  literal  ->  250
+
+Label distribution in FLUTE-simile-train
+	Label:  simile  ->  625
+	Label:  literal  ->  1250
+
+Label distribution in FLUTE-simile-test
+	Label:  simile  ->  125
+	Label:  literal  ->  250
+
+Label distribution in FLUTE-sarcasm-train
+	Label:  sarcasm  ->  2216
+	Label:  not_sarcasm  ->  1050
+	Label:  literal  ->  1050
+
+Label distribution in FLUTE-sarcasm-test
+	Label:  not_sarcasm  ->  289
+	Label:  literal  ->  289
+	Label:  sarcasm  ->  461
+
+Label distribution in Irony-Eval18-train
+	Label:  irony  ->  1901
+	Label:  not_irony  ->  1916
+
+Label distribution in Irony-Eval18-test
+	Label:  not_irony  ->  473
+	Label:  irony  ->  311
+
+Label distribution in LCC-train
+	Label:  not_metaphor  ->  3972
+	Label:  metaphor  ->  2732
+
+Label distribution in LCC-test
+	Label:  not_metaphor  ->  441
+	Label:  metaphor  ->  304
+
+Label distribution in MOH-train
+	Label:  metaphor  ->  369
+	Label:  literal  ->  1106
+
+Label distribution in MOH-test
+	Label:  literal  ->  123
+	Label:  metaphor  ->  41
+
+Label distribution in EPIE-train
+	Label:  idiom  ->  2485
+	Label:  literal  ->  337
+
+Label distribution in EPIE-test
+	Label:  idiom  ->  276
+	Label:  literal  ->  38
+
+Label distribution in MOVER-train
+	Label:  literal  ->  1997
+	Label:  hyperbole  ->  906
+
+Label distribution in MOVER-test
+	Label:  literal  ->  222
+	Label:  hyperbole  ->  101
+
+Label distribution in PIE-EN-train
+	Label:  metaphor  ->  11330
+	Label:  idiom  ->  12363
+	Label:  simile  ->  965
+	Label:  literal  ->  966
+	Label:  hyperbole  ->  41
+	Label:  irony  ->  27
+
+Label distribution in PIE-EN-test
+	Label:  metaphor  ->  1260
+	Label:  idiom  ->  1375
+	Label:  simile  ->  107
+	Label:  literal  ->  107
+	Label:  hyperbole  ->  5
+	Label:  irony  ->  3
+
+Label distribution in MSD23-train
+	Label:  simile  ->  3218
+	Label:  literal  ->  4113
+
+Label distribution in MSD23-test
+	Label:  simile  ->  358
+	Label:  literal  ->  457
+
+Label distribution in HYPOGen-train
+	Label:  literal  ->  2585
+	Label:  hyperbole  ->  1688
+
+Label distribution in HYPOGen-test
+	Label:  literal  ->  287
+	Label:  hyperbole  ->  188
+
+Label distribution in IRONY-train
+	Label:  not_irony  ->  1271
+	Label:  irony  ->  483
+
+Label distribution in IRONY-test
+	Label:  irony  ->  54
+	Label:  not_irony  ->  141
+
+Label distribution in SARCv2-train
+	Label:  sarcasm  ->  4223
+	Label:  not_sarcasm  ->  4224
+	Label:  hyperbole  ->  1047
+
+Label distribution in SARCv2-test
+	Label:  sarcasm  ->  470
+	Label:  not_sarcasm  ->  469
+	Label:  hyperbole  ->  117
+
+Label distribution in FigComp-train
+	Label:  simile  ->  404
+	Label:  literal  ->  856
+
+Label distribution in FigComp-test
+	Label:  simile  ->  45
+	Label:  literal  ->  95
+
+
+
+RUNNING... ../scripts/utilities/generate_training_sets.py
+Loading file:  ../../data/fig-lang-dataset.json
+
+Generating a training set for the  metaphor  detection task.
+	Positive/negative examples come from the following datasets:  PIE-EN-train, LCC-train, FLUTE-metaphor-train, MOH-train
+		Number of total positive examples:  15056
+		Number of total negative examples:  3972
+		Number of total literal examples:  17278
+		Balancing at:  15056  positive examples.
+		Balancing at:  3972  negative examples.
+		Balancing at:  11084  literal examples.
+	Total training set size:  30112
+
+Generating a training set for the  irony  detection task.
+	Positive/negative examples come from the following datasets:  PIE-EN-train, Irony-Eval18-train, IRONY-train, iSarcasm-train
+		Number of total positive examples:  2566
+		Number of total negative examples:  7367
+		Number of total literal examples:  17278
+		Balancing at:  2566  positive examples.
+		Balancing at:  1283  negative examples.
+		Balancing at:  1283  literal examples.
+	Total training set size:  5132
+
+Generating a training set for the  sarcasm  detection task.
+	Positive/negative examples come from the following datasets:  FLUTE-sarcasm-train, SARCv2-train, iSarcasm-train
+		Number of total positive examples:  7152
+		Number of total negative examples:  8896
+		Number of total literal examples:  17278
+		Balancing at:  7152  positive examples.
+		Balancing at:  3576  negative examples.
+		Balancing at:  3576  literal examples.
+	Total training set size:  14304
+
+Generating a training set for the  hyperbole  detection task.
+	Positive/negative examples come from the following datasets:  iSarcasm-train, MOVER-train, PIE-EN-train, SARCv2-train, HYPOGen-train
+		Number of total positive examples:  3722
+		Number of total negative examples:  4295
+		Number of total literal examples:  17278
+		Balancing at:  3722  positive examples.
+		Balancing at:  1861  negative examples.
+		Balancing at:  1861  literal examples.
+	Total training set size:  7444
+
+Generating a training set for the  idiom  detection task.
+	Positive/negative examples come from the following datasets:  PIE-EN-train, FLUTE-idiom-train, EPIE-train
+		Number of total positive examples:  15732
+		Number of total negative examples:  0
+		Number of total literal examples:  17278
+		Balancing at:  15732  positive examples.
+		Balancing at:  15732  literal examples.
+	Total training set size:  31464
+
+Generating a training set for the  simile  detection task.
+	Positive/negative examples come from the following datasets:  PIE-EN-train, FLUTE-simile-train, FigComp-train, MSD23-train
+		Number of total positive examples:  5212
+		Number of total negative examples:  0
+		Number of total literal examples:  17278
+		Balancing at:  5212  positive examples.
+		Balancing at:  5212  literal examples.
+	Total training set size:  10424
+	
+	
+	
+	
+	
+CLASS LABEL DISTRIBUTION FOR THE MULTI-LABEL COMBINED DATASET
+	
+Total label distribution: 
+	Label:  not_metaphor  ->  21457
+	Label:  simile  ->  6618
+	Label:  not_idiom  ->  21834
+	Label:  not_sarcasm  ->  30532
+	Label:  not_irony  ->  30262
+	Label:  not_hyperbole  ->  26739
+	Label:  not_simile  ->  33820
+	Label:  sarcasm  ->  9906
+	Label:  irony  ->  10176
+	Label:  hyperbole  ->  13699
+	Label:  idiom  ->  18604
+	Label:  metaphor  ->  18981
+	Label:  literal  ->  20826
