@@ -102,7 +102,7 @@ def binarize_dataset(dataset, feature_name):
     return dataset
             
 # Read data
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 feature_names = ["metaphor", "simile", "idiom", "hyperbole", "sarcasm", "irony"]
 
 for feature_name in feature_names:
