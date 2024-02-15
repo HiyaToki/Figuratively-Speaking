@@ -1,0 +1,99 @@
+TRAINING MODEL:  metaphor
+{'loss': 0.5403, 'learning_rate': 1.0626992561105207e-05, 'epoch': 0.27}
+{'loss': 0.3547, 'learning_rate': 1.98606683197544e-05, 'epoch': 0.53}
+{'loss': 0.3379, 'learning_rate': 1.8679891368520487e-05, 'epoch': 0.8}
+{'loss': 0.2932, 'learning_rate': 1.7499114417286575e-05, 'epoch': 1.06}
+{'loss': 0.2509, 'learning_rate': 1.6318337466052666e-05, 'epoch': 1.33}
+{'loss': 0.2687, 'learning_rate': 1.5137560514818752e-05, 'epoch': 1.59}
+{'loss': 0.2394, 'learning_rate': 1.3956783563584839e-05, 'epoch': 1.86}
+{'loss': 0.2195, 'learning_rate': 1.2776006612350928e-05, 'epoch': 2.13}
+{'loss': 0.1779, 'learning_rate': 1.1595229661117016e-05, 'epoch': 2.39}
+{'loss': 0.1847, 'learning_rate': 1.0414452709883106e-05, 'epoch': 2.66}
+{'loss': 0.1622, 'learning_rate': 9.233675758649192e-06, 'epoch': 2.92}
+{'loss': 0.1427, 'learning_rate': 8.05289880741528e-06, 'epoch': 3.19}
+{'loss': 0.1192, 'learning_rate': 6.872121856181367e-06, 'epoch': 3.45}
+{'loss': 0.1113, 'learning_rate': 5.691344904947456e-06, 'epoch': 3.72}
+{'loss': 0.1101, 'learning_rate': 4.510567953713544e-06, 'epoch': 3.99}
+{'loss': 0.0731, 'learning_rate': 3.329791002479632e-06, 'epoch': 4.25}
+{'loss': 0.0763, 'learning_rate': 2.14901405124572e-06, 'epoch': 4.52}
+{'loss': 0.068, 'learning_rate': 9.682371000118079e-07, 'epoch': 4.78}
+{'train_runtime': 10813.7632, 'train_samples_per_second': 13.923, 'train_steps_per_second': 0.87, 'train_loss': 0.20171883367199953, 'epoch': 5.0}
+
+MODEL:  metaphor  TRAINING TIME:  10815.080512285233  seconds.
+
+SAVING TRAINED MODEL INTO:  ../models/roberta-large-metaphor
+
+TRAINING MODEL:  simile
+{'loss': 0.4389, 'learning_rate': 1.8813905930470348e-05, 'epoch': 0.77}
+{'loss': 0.2547, 'learning_rate': 1.5405589638718476e-05, 'epoch': 1.53}
+{'loss': 0.2005, 'learning_rate': 1.19972733469666e-05, 'epoch': 2.3}
+{'loss': 0.1768, 'learning_rate': 8.588957055214725e-06, 'epoch': 3.07}
+{'loss': 0.1279, 'learning_rate': 5.18064076346285e-06, 'epoch': 3.83}
+{'loss': 0.0857, 'learning_rate': 1.772324471710975e-06, 'epoch': 4.6}
+{'train_runtime': 3881.6864, 'train_samples_per_second': 13.427, 'train_steps_per_second': 0.84, 'train_loss': 0.20356857966791633, 'epoch': 5.0}
+
+MODEL:  simile  TRAINING TIME:  3883.1337416172028  seconds.
+
+SAVING TRAINED MODEL INTO:  ../models/roberta-large-simile
+
+TRAINING MODEL:  idiom
+{'loss': 0.4971, 'learning_rate': 1.0162601626016262e-05, 'epoch': 0.25}
+{'loss': 0.2801, 'learning_rate': 1.9963845893119424e-05, 'epoch': 0.51}
+{'loss': 0.2461, 'learning_rate': 1.8834030053101348e-05, 'epoch': 0.76}
+{'loss': 0.2237, 'learning_rate': 1.7704214213083268e-05, 'epoch': 1.02}
+{'loss': 0.1719, 'learning_rate': 1.6574398373065192e-05, 'epoch': 1.27}
+{'loss': 0.1683, 'learning_rate': 1.5444582533047116e-05, 'epoch': 1.53}
+{'loss': 0.1638, 'learning_rate': 1.4314766693029038e-05, 'epoch': 1.78}
+{'loss': 0.1525, 'learning_rate': 1.318495085301096e-05, 'epoch': 2.03}
+{'loss': 0.0866, 'learning_rate': 1.2055135012992882e-05, 'epoch': 2.29}
+{'loss': 0.0991, 'learning_rate': 1.0925319172974806e-05, 'epoch': 2.54}
+{'loss': 0.0908, 'learning_rate': 9.795503332956728e-06, 'epoch': 2.8}
+{'loss': 0.0849, 'learning_rate': 8.665687492938652e-06, 'epoch': 3.05}
+{'loss': 0.0438, 'learning_rate': 7.535871652920574e-06, 'epoch': 3.3}
+{'loss': 0.0435, 'learning_rate': 6.406055812902497e-06, 'epoch': 3.56}
+{'loss': 0.0433, 'learning_rate': 5.27623997288442e-06, 'epoch': 3.81}
+{'loss': 0.0433, 'learning_rate': 4.146424132866343e-06, 'epoch': 4.07}
+{'loss': 0.0224, 'learning_rate': 3.016608292848266e-06, 'epoch': 4.32}
+{'loss': 0.0142, 'learning_rate': 1.8867924528301889e-06, 'epoch': 4.58}
+{'loss': 0.0155, 'learning_rate': 7.569766128121117e-07, 'epoch': 4.83}
+{'train_runtime': 11287.162, 'train_samples_per_second': 13.938, 'train_steps_per_second': 0.871, 'train_loss': 0.1272549353824028, 'epoch': 5.0}
+
+MODEL:  idiom  TRAINING TIME:  11289.425198793411  seconds.
+
+SAVING TRAINED MODEL INTO:  ../models/roberta-large-idiom
+
+TRAINING MODEL:  sarcasm
+{'loss': 0.5385, 'learning_rate': 1.9736515038528463e-05, 'epoch': 0.56}
+{'loss': 0.3497, 'learning_rate': 1.72508078548347e-05, 'epoch': 1.12}
+{'loss': 0.2788, 'learning_rate': 1.4765100671140942e-05, 'epoch': 1.68}
+{'loss': 0.231, 'learning_rate': 1.227939348744718e-05, 'epoch': 2.24}
+{'loss': 0.1978, 'learning_rate': 9.793686303753419e-06, 'epoch': 2.8}
+{'loss': 0.1346, 'learning_rate': 7.307979120059657e-06, 'epoch': 3.36}
+{'loss': 0.1009, 'learning_rate': 4.8222719363658965e-06, 'epoch': 3.91}
+{'loss': 0.0646, 'learning_rate': 2.3365647526721357e-06, 'epoch': 4.47}
+{'train_runtime': 5257.0494, 'train_samples_per_second': 13.605, 'train_steps_per_second': 0.85, 'train_loss': 0.21713521560566537, 'epoch': 5.0}
+
+MODEL:  sarcasm  TRAINING TIME:  5259.377223968506  seconds.
+
+SAVING TRAINED MODEL INTO:  ../models/roberta-large-sarcasm
+
+TRAINING MODEL:  irony
+{'loss': 0.5322, 'learning_rate': 1.5304709141274237e-05, 'epoch': 1.56}
+{'loss': 0.2951, 'learning_rate': 8.379501385041551e-06, 'epoch': 3.12}
+{'loss': 0.1461, 'learning_rate': 1.4542936288088643e-06, 'epoch': 4.67}
+{'train_runtime': 2022.7389, 'train_samples_per_second': 12.686, 'train_steps_per_second': 0.793, 'train_loss': 0.3083258679351331, 'epoch': 5.0}
+
+MODEL:  irony  TRAINING TIME:  2025.1768646240234  seconds.
+
+SAVING TRAINED MODEL INTO:  ../models/roberta-large-irony
+
+TRAINING MODEL:  hyperbole
+{'loss': 0.431, 'learning_rate': 1.7453505007153077e-05, 'epoch': 1.07}
+{'loss': 0.2556, 'learning_rate': 1.268478779208393e-05, 'epoch': 2.15}
+{'loss': 0.1522, 'learning_rate': 7.916070577014783e-06, 'epoch': 3.22}
+{'loss': 0.0798, 'learning_rate': 3.147353361945637e-06, 'epoch': 4.29}
+{'train_runtime': 2836.4536, 'train_samples_per_second': 13.122, 'train_steps_per_second': 0.821, 'train_loss': 0.20464435790229765, 'epoch': 5.0}
+
+MODEL:  hyperbole  TRAINING TIME:  2839.1172626018524  seconds.
+
+SAVING TRAINED MODEL INTO:  ../models/roberta-large-hyperbole

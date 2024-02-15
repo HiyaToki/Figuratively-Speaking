@@ -1,0 +1,41 @@
+
+TRAINING JOINT MODEL...
+{'loss': 0.4854, 'learning_rate': 5.80046403712297e-06, 'epoch': 0.15}
+{'loss': 0.2611, 'learning_rate': 1.160092807424594e-05, 'epoch': 0.29}
+{'loss': 0.2181, 'learning_rate': 1.7401392111368912e-05, 'epoch': 0.44}
+{'loss': 0.2131, 'learning_rate': 1.9644123525240154e-05, 'epoch': 0.58}
+{'loss': 0.2025, 'learning_rate': 1.8999419766617244e-05, 'epoch': 0.73}
+{'loss': 0.1929, 'learning_rate': 1.835471600799433e-05, 'epoch': 0.87}
+{'loss': 0.1869, 'learning_rate': 1.7710012249371417e-05, 'epoch': 1.02}
+{'loss': 0.1462, 'learning_rate': 1.7065308490748504e-05, 'epoch': 1.16}
+{'loss': 0.1493, 'learning_rate': 1.642060473212559e-05, 'epoch': 1.31}
+{'loss': 0.1433, 'learning_rate': 1.5775900973502677e-05, 'epoch': 1.45}
+{'loss': 0.1406, 'learning_rate': 1.5131197214879765e-05, 'epoch': 1.6}
+{'loss': 0.1373, 'learning_rate': 1.4486493456256852e-05, 'epoch': 1.74}
+{'loss': 0.133, 'learning_rate': 1.3841789697633938e-05, 'epoch': 1.89}
+{'loss': 0.1253, 'learning_rate': 1.3197085939011025e-05, 'epoch': 2.03}
+{'loss': 0.0888, 'learning_rate': 1.2552382180388112e-05, 'epoch': 2.18}
+{'loss': 0.0866, 'learning_rate': 1.19076784217652e-05, 'epoch': 2.32}
+{'loss': 0.086, 'learning_rate': 1.1262974663142287e-05, 'epoch': 2.47}
+{'loss': 0.0877, 'learning_rate': 1.0618270904519375e-05, 'epoch': 2.61}
+{'loss': 0.087, 'learning_rate': 9.973567145896462e-06, 'epoch': 2.76}
+{'loss': 0.0822, 'learning_rate': 9.328863387273548e-06, 'epoch': 2.9}
+{'loss': 0.0725, 'learning_rate': 8.684159628650635e-06, 'epoch': 3.05}
+{'loss': 0.0498, 'learning_rate': 8.039455870027722e-06, 'epoch': 3.19}
+{'loss': 0.05, 'learning_rate': 7.39475211140481e-06, 'epoch': 3.34}
+{'loss': 0.0485, 'learning_rate': 6.750048352781897e-06, 'epoch': 3.48}
+{'loss': 0.0508, 'learning_rate': 6.105344594158984e-06, 'epoch': 3.63}
+{'loss': 0.0482, 'learning_rate': 5.460640835536072e-06, 'epoch': 3.77}
+{'loss': 0.0464, 'learning_rate': 4.8159370769131584e-06, 'epoch': 3.92}
+{'loss': 0.0361, 'learning_rate': 4.171233318290246e-06, 'epoch': 4.06}
+{'loss': 0.0265, 'learning_rate': 3.5265295596673334e-06, 'epoch': 4.21}
+{'loss': 0.0246, 'learning_rate': 2.8818258010444205e-06, 'epoch': 4.35}
+{'loss': 0.0242, 'learning_rate': 2.2371220424215076e-06, 'epoch': 4.5}
+{'loss': 0.0254, 'learning_rate': 1.5924182837985947e-06, 'epoch': 4.64}
+{'loss': 0.0236, 'learning_rate': 9.477145251756818e-07, 'epoch': 4.79}
+{'loss': 0.0226, 'learning_rate': 3.0301076655276903e-07, 'epoch': 4.93}
+{'train_runtime': 19625.8285, 'train_samples_per_second': 14.047, 'train_steps_per_second': 0.878, 'train_loss': 0.11062523540566546, 'epoch': 5.0}
+
+JOINT MODEL TRAINING TIME:  19626.47401547432  SEC.
+
+SAVING TRAINED MODEL:  ../models/roberta-large-joint-fig-lang
