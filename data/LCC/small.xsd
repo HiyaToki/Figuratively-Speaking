@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="LCC-Metaphor-SMALL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="LmInstance"/>
+      </xs:sequence>
+      <xs:attribute name="creationTime" use="required" type="xs:integer"/>
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LmInstance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TextContent"/>
+        <xs:element ref="Annotations"/>
+      </xs:sequence>
+      <xs:attribute name="chain" use="required"/>
+      <xs:attribute name="docid" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="protagonist" type="xs:NCName"/>
+      <xs:attribute name="targetConcept" use="required" type="xs:NCName"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TextContent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="Prev"/>
+        <xs:element ref="Current"/>
+        <xs:element minOccurs="0" ref="Next"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Prev" type="xs:string"/>
+  <xs:element name="Current">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="LmSource"/>
+        <xs:element ref="LmTarget"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LmSource" type="xs:string"/>
+  <xs:element name="LmTarget" type="xs:string"/>
+  <xs:element name="Next" type="xs:string"/>
+  <xs:element name="Annotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="MetaphoricityAnnotations"/>
+        <xs:element minOccurs="0" ref="CMSourceAnnotations"/>
+        <xs:element minOccurs="0" ref="AffectAnnotations"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MetaphoricityAnnotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="MetaphoricityAnnotation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MetaphoricityAnnotation">
+    <xs:complexType>
+      <xs:attribute name="annotatorID" use="required" type="xs:integer"/>
+      <xs:attribute name="creationTime" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="score" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CMSourceAnnotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="CMSourceAnnotation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CMSourceAnnotation">
+    <xs:complexType>
+      <xs:attribute name="annotatorID" use="required" type="xs:integer"/>
+      <xs:attribute name="creationTime" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="score" use="required" type="xs:decimal"/>
+      <xs:attribute name="sourceConcept" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AffectAnnotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PolarityAnnotations"/>
+        <xs:element ref="IntensityAnnotations"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PolarityAnnotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="PolarityAnnotation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PolarityAnnotation">
+    <xs:complexType>
+      <xs:attribute name="annotatorID" use="required" type="xs:integer"/>
+      <xs:attribute name="creationTime" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="polarity" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IntensityAnnotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="IntensityAnnotation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IntensityAnnotation">
+    <xs:complexType>
+      <xs:attribute name="annotatorID" use="required" type="xs:integer"/>
+      <xs:attribute name="creationTime" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+      <xs:attribute name="intensity" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
