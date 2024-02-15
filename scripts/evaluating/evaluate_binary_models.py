@@ -109,7 +109,7 @@ def predict(text, model, tokenizer, id2label):
 # ----- 1. Load data -----#
 
 # Read data
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 dataset_file_path = base_dir + "/data/fig-lang-dataset.json"
 multi_label_dataset = load_json(dataset_file_path)
 
