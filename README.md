@@ -1,5 +1,5 @@
 # Figuratively-Speaking
-Repo for the Figuratively Speaking: Authorship Attribution via Multi-Task Figurative Language Modeling paper.<br>
+Repo for the "Figuratively Speaking: Authorship Attribution via Multi-Task Figurative Language Modeling" paper, accepted for publicaton in the ACL Findings 2024.<br>
 
 ## Instructions
 First run: ```./scripts/utilities/load_data.py``` to load all FL datasets and export them in a single colelction. <br>
